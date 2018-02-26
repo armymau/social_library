@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SocialLibrary</string>
+
+
+    <!-- no connection -->
+    <string name="no_connection_wrong_title">Oops! Something went wrong!</string>
+    <string name="no_connection_wrong_message">Unable to connect to the server. Check your internet connection.</string>
+
+    <!-- error dialog -->
+    <string name="somethig_wrong_title">Oops! Something went wrong!</string>
+    <string name="somethig_wrong_message">The application has encountered an unknown error.</string>
+
+    <!-- generic message dialog -->
+    <string name="generic_message_label">OK</string>
+
+
+    <string name="update_google_paly_services">Update Google Play Services</string>
+    <string name="is_network_available">Check your connection, you can not verify your credentials</string>
+    <string name="twitter_credential_error_message">Incorrect credentials, repeat access</string>
+
+
+
+    <!--
+        google sign in
+        Server API Key help                 AIzaSyAuM_gMJsw0Zt09e1Z3JULEKqIh55qo88A
+        Sender ID help                      285796615298
+    -->
+    <string name="core_send_registration_url"></string>
+    <string name="pick_an_account_to_proceed">You must select an account to proceed to login</string>
+
+
+
+
+    <string name="connection_error">Google Api Client result resolution failed, see log</string>
+    <string name="connection_error_response">Google Api Client connection failed: </string>
+
+    <string name="button_sign_in">Sign in with Google</string>
+    <string name="button_sign_out">Sign out from Google</string>
+    <string name="button_revoke_access">Disconnect from Google</string>
+
+    <string name="button_logout_from_facebook">Disconnect Facebook</string>
+    <string name="button_logout_from_twitter">Disconnect from Twitter</string>
+
+    <string name="FACEBOOK_BASE_URL">https://graph.facebook.com</string>
+
+    <string name="google_app_id"></string>
+
+
+</resources>

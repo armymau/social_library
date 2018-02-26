@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <!-- original badge from google
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/buttonloginWithGoogle"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        -->
+
+
+    <!-- custom button
+    <ImageButton
+        android:id="@+id/buttonloginWithGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/btn_focus_google_login" />
+        -->
+
+
+    <!-- rectangular badge with background
+    <com.shaishavgandhi.loginbuttons.GooglePlusButton
+        android:id="@+id/buttonloginWithGoogle"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        app:iconSize="30dp"
+        android:text="@string/button_sign_in"
+        android:layout_height="wrap_content"  />
+        -->
+
+
+    <!-- circular badge with background -->
+    <com.shaishavgandhi.loginbuttons.GooglePlusButton
+        android:id="@+id/buttonloginWithGoogle"
+        android:layout_width="75dp"
+        android:layout_gravity="center_vertical"
+        app:roundedCorner="true"
+        app:transparentBackground="false"
+        app:roundedCornerRadius="75dp"
+        app:iconSize="30dp"
+        android:layout_height="75dp" />
+
+    <LinearLayout
+        android:id="@+id/sign_out_and_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:visibility="gone">
+
+        <Button
+            style="@style/GoogleButton"
+            android:id="@+id/sign_out_button"
+            android:layout_width="130dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:visibility="visible"
+            android:text="@string/button_sign_out" />
+
+        <Button
+            style="@style/GoogleButton"
+            android:id="@+id/disconnect_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/button_revoke_access" />
+
+    </LinearLayout>
+
+</LinearLayout>

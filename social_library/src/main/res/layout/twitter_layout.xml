@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <!-- original badge from twitter
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/buttonloginWithTwitter"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        -->
+
+
+    <!-- custom button
+    <ImageButton
+        android:id="@+id/buttonloginWithTwitter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_focus_twitter_login" />
+        -->
+
+
+    <!-- rectangular badge with background
+    <com.shaishavgandhi.loginbuttons.TwitterButton
+        android:id="@+id/buttonloginWithTwitter"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        app:iconSize="30dp"
+        android:text="Sign in with Twitter"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+
+          />
+        -->
+
+
+
+    <!-- circular badge with background -->
+    <com.shaishavgandhi.loginbuttons.TwitterButton
+        android:id="@+id/buttonloginWithTwitter"
+        android:layout_width="75dp"
+        app:roundedCorner="true"
+        android:layout_gravity="center_vertical"
+        app:transparentBackground="false"
+        app:roundedCornerRadius="75dp"
+        app:iconSize="30dp"
+        android:layout_height="75dp" />
+
+
+    <LinearLayout
+        android:id="@+id/sign_out_and_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:visibility="gone">
+
+        <Button
+            style="@style/TwitterButton"
+            android:id="@+id/disconnect_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/button_logout_from_twitter" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

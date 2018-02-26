@@ -1,0 +1,30 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- button google style -->
+    <style name="GoogleButton" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/google</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+
+    <!-- button facebook style -->
+    <style name="FacebookButton" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/facebook</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+
+    <!-- button twitter style -->
+    <style name="TwitterButton" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/twitter</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+
+</resources>

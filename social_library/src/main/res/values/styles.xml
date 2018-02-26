@@ -1,0 +1,53 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme_SocialLibrary" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/social_color_fb_color</item>
+        <item name="colorPrimaryDark">@color/social_color_twitter_color</item>
+        <item name="colorAccent">@color/social_color_red_agenda</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="FacebookLoginButton">
+        <item name="android:background">@drawable/btn_focus_facebook_login</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- button google style -->
+    <style name="GoogleButton" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/google</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+
+    <!-- button facebook style -->
+    <style name="FacebookButton" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/facebook</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+
+    <!-- button twitter style -->
+    <style name="TwitterButton" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/twitter</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+    </style>
+
+
+</resources>

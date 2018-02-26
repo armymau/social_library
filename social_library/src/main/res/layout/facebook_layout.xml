@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- xmlns:fb="http://schemas.android.com/apk/res-auto" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+    <!-- original badge from facebook
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/buttonloginWithFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_gravity="center_horizontal" />
+        -->
+
+
+    <!-- custom button
+    <Button
+        android:id="@+id/buttonloginWithFacebook"
+        style="@style/FacebookLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_gravity="end" />
+    -->
+
+
+    <!-- rectangular badge with background
+    <com.shaishavgandhi.loginbuttons.FacebookButton
+        android:id="@+id/buttonloginWithFacebook"
+        android:layout_width="match_parent"
+        android:text="Sign in with Facebook"
+        android:layout_gravity="center_vertical"
+        app:iconSize="30dp"
+        android:layout_height="wrap_content" />
+        -->
+
+
+
+    <!-- circular badge with background -->
+    <com.shaishavgandhi.loginbuttons.FacebookButton
+        android:id="@+id/buttonloginWithFacebook"
+        android:layout_width="75dp"
+        app:roundedCorner="true"
+        app:transparentBackground="false"
+        android:layout_gravity="center_vertical"
+        app:roundedCornerRadius="75dp"
+        app:iconSize="30dp"
+        android:layout_height="75dp" />
+
+
+    <LinearLayout
+        android:id="@+id/sign_out_and_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:visibility="gone">
+
+        <Button
+            style="@style/FacebookButton"
+            android:id="@+id/disconnect_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="visible"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/button_logout_from_facebook" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
