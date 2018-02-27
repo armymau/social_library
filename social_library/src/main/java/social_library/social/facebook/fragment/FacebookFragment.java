@@ -81,7 +81,7 @@ public class FacebookFragment extends Fragment implements View.OnClickListener {
     /* View.OnClickListener */
     @Override
     public void onClick(View v) {
-        LoginManager.getInstance().logInWithReadPermissions(getActivity(),
+        LoginManager.getInstance().logInWithReadPermissions(mActivity,
                 Arrays.asList("email", "user_hometown", "user_religion_politics", "user_status",
                         "user_about_me", "user_likes", "user_tagged_places", "user_location",
                         "user_videos", "user_birthday", "user_photos", "user_website",
