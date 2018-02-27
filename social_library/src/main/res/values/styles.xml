@@ -7,7 +7,7 @@
 
         <item name="colorPrimary">@color/social_color_fb_color</item>
         <item name="colorPrimaryDark">@color/social_color_twitter_color</item>
-        <item name="colorAccent">@color/social_color_red_agenda</item>
+        <item name="colorAccent">@color/social_color_google_color</item>
     </style>
 
     <style name="AppTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
@@ -27,7 +27,7 @@
         <item name="android:textStyle">normal</item>
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:background">@color/google</item>
+        <item name="android:background">@color/social_color_google_color</item>
         <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
     </style>
 
